@@ -3,7 +3,7 @@ import React from 'react'
 function DashBoardPage() {
   return (
     <div>
-      DashBoardPage
+        DashBoardPage
     </div>
   )
 }

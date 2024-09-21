@@ -1,0 +1,9 @@
+{
+    "id": "sectionID001",
+    "type": "hero",
+    "props": {
+        "title": "welcom to our store",
+        "subtitle": "our store is free for now",
+        "backgroundImg": ""
+    }
+}
