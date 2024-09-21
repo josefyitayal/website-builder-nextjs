@@ -1,0 +1,15 @@
+[
+    {
+        "id": "templateID001",
+        "name": "Dune",
+        "template": {
+            "pages": {
+                "home": {
+                    "header": {
+                        "section": ["sectionID001", "sectionID002"]
+                    }
+                }
+            }
+        }
+    }
+]
