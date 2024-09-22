@@ -1,0 +1,33 @@
+[
+    {
+        "id": "element001",
+        "type": "Header text",
+        "text": "welcome to my store",
+        "style": {
+            "color": "black",
+            "fontSize": "22px",
+            "padding": "5px"
+        }
+    },
+    {
+        "id": "element002",
+        "type": "Paragraph",
+        "text": "The best store in Ethiopia",
+        "style": {
+            "color": "rgb(67,67,67)",
+            "fontSize": "14px",
+            "padding": "2px"
+        }
+    },
+    {
+        "id": "element003",
+        "type": "Button",
+        "text": "click me",
+        "link": "https://customStore.yosef.com/buy-know",
+        "style": {
+            "color": "white",
+            "backgroudColor": "black",
+            "borderRadius": "5px"
+        }
+    }
+]

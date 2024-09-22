@@ -1,9 +1,41 @@
-{
-    "id": "sectionID001",
-    "type": "hero",
-    "props": {
-        "title": "welcom to our store",
-        "subtitle": "our store is free for now",
-        "backgroundImg": ""
+[
+    {
+        "id": "sectionID001",
+        "type": "body-hero",
+        "props": {
+            "title": {
+                "text": "welcome to our store",
+                "style": {
+                    "fontSize": "72px",
+                    "textAlign": "center",
+                    "color": "black"
+                }
+            },
+            "subtitle": {
+                "text": "this is the subtitle text and good text",
+                "style": {
+                    "fontSize": "22px",
+                    "color": "rgb(67, 67, 67)",
+                    "textAlign": "center"
+                }
+            },
+            "backgroundImg": {
+                "src": "/pexels-dreamypixel-547114.jpg"
+            }
+        }
+    },
+    {
+        "id": "sectionID002",
+        "type": "header-nav",
+        "props": {
+            "logo": {
+                "src": "/logo.jpg",
+                "style": {
+                    "width": "30px",
+                    "height": "30px"
+                }
+            }
+
+        }
     }
-}
+]

@@ -2,11 +2,12 @@
     {
         "id": "templateID001",
         "name": "Dune",
+        "photo": "/website-template-img.png",
         "template": {
             "pages": {
                 "home": {
-                    "header": {
-                        "section": ["sectionID001", "sectionID002"]
+                    "body": {
+                        "sections": ["sectionID001"]
                     }
                 }
             }
