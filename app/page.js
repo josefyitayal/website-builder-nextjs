@@ -11,7 +11,7 @@ export default function Home() {
         <h1 className="text-8xl font-bold">Build <span className="text-gradient">Website</span> Here</h1>
         <p className="text-xl text-gray-200">simple website builder made by yosef or PrimeVX</p>
         <div className="flex items-center gap-4">
-          <Button aschild>
+          <Button asChild>
             <Link href={"/sign-up"}>Get Started</Link>
           </Button>
           <Button variant="outline">Learn more</Button>
