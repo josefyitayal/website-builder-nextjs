@@ -6,9 +6,10 @@
         "template": {
             "pages": {
                 "home": {
-                    "body": {
-                        "sections": ["sectionID001"]
-                    }
+                    "sections": ["sectionID001"]
+                },
+                "product": {
+                    "sections": ["sectionID002"]
                 }
             }
         }

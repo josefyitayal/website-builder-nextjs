@@ -16,15 +16,24 @@ import {
 import { usePathname } from 'next/navigation';
 
 
+
 function Navbar() {
     const pathname = usePathname();
     const { user } = useUser()
 
     let navType = "root"
     if (pathname.startsWith('/dashboard')) {
-        navType = "dashboard";
+        // if (pathname.split("/")[pathname.split("/").length - 1] === "editor") {
+        //     navType = ""
+        // }
+        if (pathname.endsWith("/editor")){
+            navType = "editor"
+        }
+        else {
+            navType = "dashboard";
+        }
     }
-    console.log(pathname)
+    console.log(pathname.endsWith("/editor"))
     if (navType === "root") {
         return (
             <div className='flex items-center justify-between p-4 px-8'>
@@ -71,6 +80,11 @@ function Navbar() {
                 </div>
             </div>
         )
+    }
+    else if (navType === "editor") {
+        return (
+           null
+        ) 
     }
     else {
         throw new Error(`there is not ${type} type`)

@@ -1,7 +1,8 @@
 [
     {
         "id": "sectionID001",
-        "type": "body-hero",
+        "type": "hero",
+        "name": "Hero",
         "props": {
             "title": {
                 "text": "welcome to our store",
@@ -26,16 +27,28 @@
     },
     {
         "id": "sectionID002",
-        "type": "header-nav",
+        "type": "product",
+        "name": "Header",
         "props": {
-            "logo": {
-                "src": "/logo.jpg",
+            "productImg": {
+                "src": "product-image.jpg"
+            },
+            "title": {
+                "text": "Product name",
                 "style": {
-                    "width": "30px",
-                    "height": "30px"
+                    "fontSize": "32px",
+                    "color": "black",
+                    "textAlign": "start"
+                }
+            },
+            "price": {
+                "text": "55",
+                "style": {
+                    "fontSize": "14px",
+                    "color":"rgb(67, 67, 67)",
+                    "textAlign": "start"
                 }
             }
-
         }
     }
 ]
